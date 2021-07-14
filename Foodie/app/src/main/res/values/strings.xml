@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="flash_screen">A  food delivery company, ready to deliver your food to your client in a safe and faster way.</string>
+    <string name="email"> Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="new_chef">new chef?</string>
+    <string name="click_here">click here</string>
+    <string name="to_register">to register.</string>
 </resources>
