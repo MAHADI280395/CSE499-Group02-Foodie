@@ -1,0 +1,7 @@
+Foodie-mobile application feature set
+
+1. Anyone can be a cook if he/she has expertise in cooking
+2. Chef/Customer registration and login system
+3. Customer can search food accroding to their nearby location using Google map API
+4. Customer food rating/review system
+5. Payment getway
