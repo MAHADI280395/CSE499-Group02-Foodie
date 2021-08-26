@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cse486.ece.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".chef_registration_login"></activity>
+        <activity android:name=".chef_work_station"></activity>
+        <activity android:name=".chef_registration_info" />
+        <activity android:name=".chef_registration_login" />
         <activity android:name=".welcome_screen" />
         <activity android:name=".MainActivity">
             <intent-filter>
