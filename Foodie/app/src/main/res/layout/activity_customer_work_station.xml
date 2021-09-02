@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chef_work_station">
+    tools:context=".customer_work_station">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="welcome to chef work station"
+        android:text="welcome to customer work station"
         android:textSize="22sp"
         android:textColor="@color/black"
         />

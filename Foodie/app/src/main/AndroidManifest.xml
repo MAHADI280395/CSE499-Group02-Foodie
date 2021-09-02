@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".chef_work_station"></activity>
+        <activity android:name=".customer_registration_info"></activity>
+        <activity android:name=".customer_work_station" />
+        <activity android:name=".customer_registration_login" />
+        <activity android:name=".chef_work_station" />
         <activity android:name=".chef_registration_info" />
         <activity android:name=".chef_registration_login" />
         <activity android:name=".welcome_screen" />

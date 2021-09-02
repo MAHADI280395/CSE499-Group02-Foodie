@@ -18,7 +18,7 @@ public class welcome_screen extends AppCompatActivity {
         setContentView(R.layout.activity_welcome_screen);
 
         chefbutton = findViewById(R.id.chefbutton);
-        customerbutton = findViewById(R.id.customerbutton);
+        customerbutton = findViewById(R.id.customerButton);
 
         chefbutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +28,16 @@ public class welcome_screen extends AppCompatActivity {
             }
         });
 
+        customerbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(welcome_screen.this, customer_registration_login.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
+
+
 }
